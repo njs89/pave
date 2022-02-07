@@ -16,6 +16,7 @@ const app = express()
 app.use('/', express.static(path.join(__dirname, 'static')))
 app.use(bodyParser.json())
 
+
 app.post('/api/login', async (req, res) => {
     const {username, password} = req.body
     const user = await User.findOne({username}).lean()
@@ -47,7 +48,7 @@ app.post('/api/register', async (req, res) => {
     if(plainTextPassword.length < 5) {
         return res.json({ status : 'error', error: 'Password to small: aT LEAST 5 characters'})
     }
-    //bcrypt encrypts asswords//
+    //bcrypt encrypts passwords//
     const password = await bcrypt.hash(plainTextPassword, 10)
 
     try {
