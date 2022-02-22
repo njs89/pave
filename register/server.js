@@ -23,7 +23,7 @@ app.post('/api/login', async (req, res) => {
     if(!user) {
         return res.json({status: 'error', error:'Invalid username/password'})
     }
-    if(await bcrypt.compare(password, user.password)) {
+    if(await bcrypt.compare(""+password, user.password)) {
         //the username password combinationis succesfull//
         const token = jwt.sign({id: user._id, username: user.username
         }, JWT_SECRET
@@ -35,10 +35,9 @@ app.post('/api/login', async (req, res) => {
     res.json({ status: 'error', error: 'invalid username/password'})
 })
 
-
 app.post('/api/register', async (req, res) => {
-    const { username, password: plainTextPassword} = req.body
-
+    const { username, plainTextPassword} = req.body
+        console.log(req.body);
     if(!username || typeof username !== 'string') {
         return res.json({ status : 'error', error: 'Invalid username'})
     }
