@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Profile from "./Pages/Profile";
-import Register from "./Pages/Register";
 import Errorpage from "./Pages/Errorpage";
-import Login from "./Pages/Login";
+import Register from "./Pages/password/Register";
+import Login from "./Pages/password/Login";
+import Change from "./Pages/password/Change";
+import Reset from "./Pages/password/Reset";
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/reset" element={<Reset />} />
+            <Route path="/change" element={<Change />} />
             <Route path="/profile/:username" element={<Profile />} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
