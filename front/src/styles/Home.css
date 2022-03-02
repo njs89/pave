@@ -1,0 +1,128 @@
+.home {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top:0;
+}
+
+.headerimage {
+  text-align: left;
+  color: white;
+  top: 0;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30 px;
+  padding-left: 30px;
+  margin-left: 50px;
+  align-content:left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30%;
+  width:100%;
+  
+}
+
+.headerimage h2 {
+  justify-content: left;
+  align-items: left;
+  font-size: 40px;
+  height: 60px;
+  font-weight: 50;
+  color: rgb(221, 218, 218);
+}
+
+.headerimage p {
+  padding: 0;
+  font-size: 20px;
+  justify-content: left;
+  color: rgb(255, 255, 255);
+  vertical-align: middle; 
+}
+
+.headerimage button {
+  color: rgb(233, 32, 128);
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  background-color: rgb(233, 32, 128);
+  height: 50px;
+  width: 180px;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 30 px;
+}
+
+.headerimage button:hover {
+  background-color: #FBD36C;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.buddy {
+  padding-top: 50 px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(169, 190, 201);
+  color: white;
+} 
+  
+.nav-Links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none
+}
+  
+.h2 {
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+}
+
+.p,div {
+  font-family: Montserrat,sans-serif;
+  font-weight: lighter;
+}
+  
+.li {
+  display: table-cell; border: 25px white; margin: 1em; padding: 1rem; vertical-align: top; position:left; 
+}
+  
+.header {
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+}
+
+.img {
+  border: 1px #ddd;
+  border-radius: 25px;
+  padding: 5px;
+  width: 20em;
+}
+  
+  
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.form{
+  width: 20em;
+}
+  
+.log_reg{
+  text-align: left;
+}

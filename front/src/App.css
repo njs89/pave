@@ -4,56 +4,12 @@
   flex-direction:column;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background: rgb(169, 190, 201);
-  color: white;
-} 
-
-.nav-Links{
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none
-}
-
-h2 {
-  font-family: Montserrat,sans-serif;
-  font-weight: bold;
-}
-p,div{
-  font-family: Montserrat,sans-serif;
-  font-weight: lighter;
-}
-
-
-li{display: table-cell; border: 25px white; margin: 1em; padding: 1rem; vertical-align: top; position:left; }
-
-.header{
-  font-family: Montserrat,sans-serif;
-  font-weight: bold;
-}
-.img{
-  border: 1px #ddd;
-  border-radius: 25px;
-  padding: 5px;
-  width: 20em;
-}
-
-
-.container{
-  display: flex;
-  justify-content: space-between;
-}
 
 .form{
   width: 20em;
 }
-
+  
 .log_reg{
   text-align: left;
 }
+
