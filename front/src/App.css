@@ -6,10 +6,114 @@
 
 
 .form{
+  padding-top: 2em;
   width: 20em;
 }
   
 .log_reg{
   text-align: left;
 }
+
+li{
+  list-style: none;
+}
+
+.homeh1{
+  padding-top: 1em;
+  padding-left: 1em;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.btn {
+  background-color: #E95280;
+  border-color: #E95280;
+  color: white;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  font-weight: 700;
+  margin-bottom: 75px;
+}
+
+.buddyContainer {
+  height: 100%; 
+  display: flex; 
+  flex-wrap: wrap; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.buddyBox {
+  height: 100%; 
+  margin: auto;
+}
+
+.buddyImageBox {
+  height: 160px;
+  margin-bottom: 40px;
+}
+
+.vectorContainer {
+  height: 100%; 
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 75px;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+.vectorBox {
+  background-color: #FDD06A;
+  display: block;
+  width: 330px;
+  height: 340px;
+  border-radius: 70% 60% 75% 90% / 70% 60% 75% 90%;
+}
+
+.vectorImageBox {
+  height: 130px;
+  margin: 15px;
+}
+
 

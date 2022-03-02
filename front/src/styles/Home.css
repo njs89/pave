@@ -45,6 +45,7 @@
   justify-content: left;
   color: rgb(255, 255, 255);
   vertical-align: middle; 
+  text-align: left;
 }
 
 .headerimage button {

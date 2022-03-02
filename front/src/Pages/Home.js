@@ -31,7 +31,7 @@ function Home() {
             <div>
                {/*Buddy-Uebersicht*/}
                <div className="buddy"></div>
-               <h1>Find your...</h1>
+               <h1 class="homeh1"> Find your...</h1>
                <div className="buddyContainer">
                   <div className="buddyBox">
                      <h3>Play Buddy</h3>
